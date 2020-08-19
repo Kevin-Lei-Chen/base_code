@@ -6,6 +6,8 @@ package com.kevin.demo;
  */
 public class Test {
     public static void main(String[] args) {
+        int max = Integer.MIN_VALUE;
+        System.out.println(max);
         oddEven(9);
     }
     public static void oddEven(int num){
